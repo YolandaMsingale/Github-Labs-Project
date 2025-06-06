@@ -41,3 +41,6 @@ I used a GitHub Project Board to organize and track my tasks throughout this cap
 
 ---
 _This project reflects my hands-on learning from the GitHub Labs sessions and my readiness to apply GitHub tools in real development workflows._
+
+Test: trigger GitHub Actions workflow
+
