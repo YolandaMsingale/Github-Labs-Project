@@ -1,0 +1,15 @@
+name: GitHub Labs Workflow
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: ⬇️ Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: ✅ Run simple echo test
+        run: echo "🎉 GitHub Actions workflow is running successfully!"
+
